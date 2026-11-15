@@ -1,4 +1,3 @@
-```
 ---
 # Sygil.fun - CTF Write-up
 
