@@ -62,6 +62,5 @@ print(f"The Token for '{my_alias}' is: {generate_token(my_alias)}")
 ---
 
 ## Result
-
-## After properly mapping the input and utilizing the automated script, the system authenticated successfully, displaying the **"CURSE SEALED"** status and the pentagram seal.
+ After properly mapping the input and utilizing the automated script, the system authenticated successfully, displaying the **"CURSE SEALED"** status and the pentagram seal.
 
