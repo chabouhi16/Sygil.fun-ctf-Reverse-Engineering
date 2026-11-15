@@ -1,14 +1,3 @@
----
-# Sygil.fun - CTF Write-up
-
-## Challenge Overview
-
-- **Platform:** Sygil.fun
-- **Category:** Reverse Engineering
-- **Objective:** Authenticate successfully by bypassing the custom cryptographic/hashing check and generating a valid validation token.
-
----
-
 ## Analysis & Methodology
 
 ### 1. Disassembly & Logic Review
