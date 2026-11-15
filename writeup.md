@@ -44,12 +44,11 @@ def generate_token(alias):
     part2 &= 0xFFFF
     part3 &= 0xFFFFFFFF
 
-    token = f"syg-{part1:08x}-{part2:04x}-{part3:08x}"
+    token = "syg-{}-{}-{}".format(format(part1, "08x"), format(part2, "04x"), format(part3, "08x"))
     return token
 
 my_alias = "chabouh"
-print(f"The Token for '{my_alias}' is: {generate_token(my_alias)}")
-
+print("The Token for '{}' is: {}".format(my_alias, generate_token(my_alias)))
 ```
 
 ---
